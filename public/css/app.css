@@ -1,0 +1,53 @@
+body {
+  background-image: url("/images/lines.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.grid-item .gray {
+  filter: grayscale(1);
+}
+
+.form-container {
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+.form-check-input:checked {
+  background-color: red;
+  border-color: red;
+}
+
+.form-switch .form-check-input {
+  cursor: pointer;
+  width: 5em;
+  height: 2em;
+}
+
+#portfolio-grid {
+  height: 1395px;
+}
+
+@media only screen and (max-width: 767px) {
+  .start-height {
+    height: 1820px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .step8-height {
+    height: 1700px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .step9-height {
+    height: 1800px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .final-height {
+    height: 2700px !important;
+  }
+}
