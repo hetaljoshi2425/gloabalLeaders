@@ -17,7 +17,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger" for="check1">
+        <label class="btn btn-lg form_blade_color" for="check1">
             Einen zweiten Pass oder Wohnsitz um mehr Freiheit und Sicherheit zu erlangen
         </label>
 
@@ -31,7 +31,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check2">
+        <label class="btn btn-lg form_blade_color mt-3" for="check2">
             Mein Unternehmen ins Ausland verlegen und Steuereinsparungen erzielen
         </label>
 
@@ -45,7 +45,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check3">
+        <label class="btn btn-lg form_blade_color mt-3" for="check3">
             Mit Offshore-Investitionen höhere Renditen erzielen
         </label>
 
@@ -59,7 +59,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check4">
+        <label class="btn btn-lg form_blade_color mt-3" for="check4">
             Mein Vermögen im Ausland sichern
         </label>
 
@@ -73,7 +73,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check5">
+        <label class="btn btn-lg form_blade_color mt-3" for="check5">
             Mein Vermögen diversifizieren
         </label>
 
@@ -87,7 +87,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check6">
+        <label class="btn btn-lg form_blade_color mt-3" for="check6">
             Vom Bankgeheimnis im Ausland profitieren
         </label>
 
@@ -101,7 +101,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check7">
+        <label class="btn btn-lg form_blade_color mt-3" for="check7">
             Erstellen eines ganzheitlichen Plans, der alle Teile des Puzzles zusammenfügt
         </label>
 
@@ -115,7 +115,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check8">
+        <label class="btn btn-lg form_blade_color mt-3" for="check8">
             Andere
         </label>
         
@@ -128,12 +128,12 @@
         >
     </div>
     <div class="row justify-content-between mt-5">
-        <a href="/contact-form/step7" class="col-sm-2 col-6 btn btn-lg btn-outline-danger">
+        <a href="/contact-form/step7" class="col-sm-2 col-6 btn btn-lg contact_form_btn">
             <i class="fa-solid fa-circle-arrow-left"></i>
             Zurück
         </a>
         <div class="col-sm-4 col-6 text-right">
-            <button type="submit" class="btn btn-lg btn-danger">
+            <button type="submit" class="btn btn-lg blade_submit_btn">
                 Nächste
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </button>

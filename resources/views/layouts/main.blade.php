@@ -20,11 +20,11 @@
                     <img src="{{ asset('images/logo.png') }}" alt="Logo" />
                 </a>
             </div>
-            <div class="toggle-holder">
+            <!-- <div class="toggle-holder">
                 <div id="toggle" class="all-loaded">
                     <div class="menu-line"></div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="menu-holder-back">
             <div class="menu-wrapper-back">

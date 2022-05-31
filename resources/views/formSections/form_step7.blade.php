@@ -14,7 +14,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger" for="check1">
+        <label class="btn btn-lg form_blade_color" for="check1">
             Ich plane in mehreren Ländern zu leben
         </label>
 
@@ -28,7 +28,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check2">
+        <label class="btn btn-lg form_blade_color mt-3" for="check2">
             Kann ich akzeptieren um meine Ziele zu erreichen
         </label>
 
@@ -42,7 +42,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check3">
+        <label class="btn btn-lg form_blade_color mt-3" for="check3">
             Ist etwas das ich nicht tun will oder kann
         </label>
 
@@ -56,17 +56,17 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check4">
+        <label class="btn btn-lg form_blade_color mt-3" for="check4">
             Ist etwas das ich bereits tue 
         </label>
     </div>
     <div class="row justify-content-between mt-5">
-        <a href="/contact-form/step6" class="col-sm-2 col-6 btn btn-lg btn-outline-danger">
+        <a href="/contact-form/step6" class="col-sm-2 col-6 btn btn-lg contact_form_btn">
             <i class="fa-solid fa-circle-arrow-left"></i>
             Zurück
         </a>
         <div class="col-sm-4 col-6 text-right">
-            <button type="submit" class="btn btn-lg btn-danger">
+            <button type="submit" class="btn btn-lg blade_submit_btn">
                 Nächste
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </button>

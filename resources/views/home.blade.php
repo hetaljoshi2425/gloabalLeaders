@@ -13,6 +13,7 @@
                 class="item-link"
                 href="#!"
                 data-id="10"
+                style="cursor:initial;"
             >
                 <img
                     loading="lazy"
@@ -38,6 +39,7 @@
                 class="item-link"
                 href="#!"
                 data-id="15"
+                style="cursor:initial;"
             >
                 <img
                     width="435"
@@ -91,13 +93,13 @@
       <div class="modal-content bg-dark">
         <div class="modal-header">
           <h5 class="modal-title" id="RedPillModalLabel">Bitten geben Sie den PIN ein</h5>
-          <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form method="GET" action="/contact-form" id="redPillModal">
             <div class="modal-body">
             <input
                 type="text"
-                class="form-control bg-transparent border-danger shadow-none text-white"
+                class="form-control bg-transparent border-danger shadow-none"
                 id="uniqueCode"
                 placeholder="XXXX-XXXX"
             />
@@ -106,8 +108,8 @@
                 </div>
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-            <button type="button" class="btn btn-danger save">Submit</button>
+            <button type="button" class="btn blade_cancle_btn"  data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn blade_submit_btn save">Submit</button>
             </div>
         </form>
       </div>

@@ -17,7 +17,7 @@
                 checked
                 @endif
             >
-            <label class="btn btn-lg btn-outline-danger" for="description1">
+            <label class="btn btn-lg form_blade_color" for="description1">
                 Ich habe ein jährliches Einkommen vor Steuern von 500.000 USD oder mehr
             </label>
 
@@ -33,7 +33,7 @@
                 checked
                 @endif
             >
-            <label class="btn btn-lg btn-outline-danger mt-3" for="description2">
+            <label class="btn btn-lg form_blade_color mt-3" for="description2">
                 Ich habe ein Nettovermögen von mindestens 1 Million US-Dollar (exclusive dem Wert meines Unternehmens)
             </label>
 
@@ -49,7 +49,7 @@
                 checked
                 @endif
             >
-            <label class="btn btn-lg btn-outline-danger mt-3" for="description3">
+            <label class="btn btn-lg form_blade_color mt-3" for="description3">
                 Ich erfülle sowohl die  Einkommens- als auch Vermögenskriterien
             </label>
 
@@ -65,17 +65,17 @@
                 checked
                 @endif
             >
-            <label class="btn btn-lg btn-outline-danger mt-3" for="description4">
+            <label class="btn btn-lg form_blade_color mt-3" for="description4">
                 Ich erfülle keine der beiden Kriterien
             </label>
     </div>
     <div class="row justify-content-between mt-5">
-        <a href="/contact-form/step3" class="col-sm-2 col-6 btn btn-lg btn-outline-danger">
+        <a href="/contact-form/step3" class="col-sm-2 col-6 btn btn-lg contact_form_btn">
             <i class="fa-solid fa-circle-arrow-left"></i>
             Zurück
         </a>
         <div class="col-sm-4 col-6 text-right">
-            <button type="submit" class="btn btn-lg btn-danger">
+            <button type="submit" class="btn btn-lg blade_submit_btn">
                 Nächste
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </button>

@@ -46,9 +46,14 @@
 
         {{-- Progress Bar --}}
         @if ($progress)
-        <div class="border border-danger">
+        <!-- <div class="border border-danger">
             <div class="bg-danger" style="width: {{$progress}}">
                 {{ $progress }}
+            </div>
+        </div> -->
+        <label for="file" class="fw-bold">{{$progress}} Completed</label>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="{{$progress}}" aria-valuemin="0" aria-valuemax="100" style="width:{{$progress}}">
             </div>
         </div>
         @endif

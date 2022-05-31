@@ -13,7 +13,7 @@
                 value="Ich habe keine Einträge"
                 @if($formData['criminalRecord'] == 'Ich habe keine Einträge') checked @endif
             >
-            <label class="btn btn-lg btn-outline-danger" for="criminalRecordYes">Ich habe keine Einträge</label>
+            <label class="btn btn-lg form_blade_color" for="criminalRecordYes">Ich habe keine Einträge</label>
 
             <input
                 type="radio"
@@ -24,15 +24,15 @@
                 value="Ich habe einen oder mehrere Einträge"
                 @if($formData['criminalRecord'] == 'Ich habe einen oder mehrere Einträge') checked @endif
             >
-            <label class="btn btn-lg btn-outline-danger mt-3" for="criminalRecordNo">Ich habe einen oder mehrere Einträge</label>
+            <label class="btn btn-lg form_blade_color mt-3" for="criminalRecordNo">Ich habe einen oder mehrere Einträge</label>
     </div>
     <div class="row justify-content-between mt-5">
-        <a href="/contact-form/step2" class="col-sm-2 col-6 btn btn-lg btn-outline-danger">
+        <a href="/contact-form/step2" class="col-sm-2 col-6 btn btn-lg contact_form_btn">
             <i class="fa-solid fa-circle-arrow-left"></i>
             Zurück
         </a>
         <div class="col-sm-4 col-6 text-right">
-            <button type="submit" class="btn btn-lg btn-danger">
+            <button type="submit" class="btn btn-lg blade_submit_btn">
                 Nächste
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </button>

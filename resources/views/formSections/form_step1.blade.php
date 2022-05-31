@@ -18,7 +18,7 @@
                     border-danger
                     border-bottom
                     border-0
-                    text-white
+                  
                     shadow-none
                     mt-2
                 "
@@ -67,7 +67,7 @@
                     border-danger
                     border-bottom
                     border-0
-                    text-white
+                  
                     shadow-none
                     mt-2
                 "
@@ -94,7 +94,7 @@
                     border-danger
                     border-bottom
                     border-0
-                    text-white
+                    
                     shadow-none
                     mt-2
                 "
@@ -113,7 +113,7 @@
             <br>
             @php $counter = 1 @endphp
             @foreach ($ages as $age)
-                <label for="age{{$counter}}">
+                <label for="age{{$counter}}" class="fw-age" >
                 <input type="radio" name="age" id="age{{$counter}}" value="{{$age}}" @if(old('age')!= '') @if (old('age') == $age) checked @endif @else @if ($formData['age'] == $age) checked @endif @endif > &nbsp;{{$age}}
                 </label><br>
                 @php $counter++ @endphp
@@ -139,17 +139,19 @@
         </div>
     </div>
     <div class="row justify-content-between mt-5">
-        <a href="/contact-form" class="col-sm-2 col-6 btn btn-lg btn-outline-danger">
+        <a href="/contact-form" class="col-sm-2 col-6 btn btn-lg contact_form_btn">
             <i class="fa-solid fa-circle-arrow-left"></i>
             Zurück
         </a>
         <div class="col-sm-4 col-6 text-right">
-            <button type="submit" class="btn btn-lg btn-danger">
+            <button type="submit" class="btn btn-lg blade_submit_btn">
                 Nächste
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </button>
         </div>
     </div>
+    
+
 </form>
 @push('scripts')
 <script>

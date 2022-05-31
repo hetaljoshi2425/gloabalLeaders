@@ -16,7 +16,7 @@
                 id="check1"
                 value="Ja, ich bin mit der Gebühr einverstanden und bereit, fortzufahren"
             >
-            <label class="btn btn-lg btn-outline-danger" for="check1">
+            <label class="btn btn-lg form_blade_color" for="check1">
                 Ja, ich bin mit der Gebühr einverstanden und bereit, fortzufahren
             </label>
 
@@ -27,7 +27,7 @@
                 id="check2"
                 value="Ich bin mit der Gebühr einverstanden, aber ich kann möglicherweise nicht sofort fortfahren"
             >
-            <label class="btn btn-lg btn-outline-danger mt-3" for="check2">
+            <label class="btn btn-lg form_blade_color mt-3" for="check2">
                 Ich bin mit der Gebühr einverstanden, aber ich kann möglicherweise nicht sofort fortfahren
             </label>
 
@@ -38,17 +38,17 @@
                 id="check3"
                 value="Nein, ich bin nicht bereit, in Ihre Dienste zu investieren"
             >
-            <label class="btn btn-lg btn-outline-danger mt-3" for="check3">
+            <label class="btn btn-lg form_blade_color mt-3" for="check3">
                 Nein, ich bin nicht bereit, in Ihre Dienste zu investieren
             </label>
     </div>
     <div class="row justify-content-between mt-5">
-        <a href="/contact-form/step9" class="col-sm-2 col-6 btn btn-lg btn-outline-danger">
+        <a href="/contact-form/step9" class="col-sm-2 col-6 btn btn-lg contact_form_btn">
             <i class="fa-solid fa-circle-arrow-left"></i>
             Zurück
         </a>
         <div class="col-sm-4 col-6 text-right">
-            <button type="submit" class="btn btn-lg btn-danger">
+            <button type="submit" class="btn btn-lg blade_submit_btn">
                 Senden
                 <i class="fas fa-check-circle"></i>
             </button>

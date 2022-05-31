@@ -17,6 +17,7 @@ class UserUniquecodesSeeder extends Seeder
     {
         DB::table('users_uniquecodes')->insert([
             'code' => "#".mt_rand(1000,9999)."ps",
+            'email' => "Admin",
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s')
         ]);

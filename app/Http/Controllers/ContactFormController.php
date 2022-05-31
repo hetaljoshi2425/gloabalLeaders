@@ -134,8 +134,10 @@ class ContactFormController extends Controller
             $captchaImage = $captcha->dumpCaptcha($fourRandomDigit);
 
             // store the new generated code to db
-            $userCode = UsersUniquecodes::find(1);
+            $userCode = new UsersUniquecodes;
             $userCode->code = "#".$fourRandomDigit."ps";
+            $userCode->email = $request->session()->get('formData')['email'];
+            $userCode->is_expired = '1';
             $userCode->save();
 
             Mail::to($request->session()->get('formData')['email'])
@@ -148,7 +150,7 @@ class ContactFormController extends Controller
     public function checkCode(Request $request) {
         $code = $request->code;
         // check code at uniqueCodes
-        $uniqueCodes = UsersUniquecodes::where('code', '=', $code)->count();
+        $uniqueCodes = UsersUniquecodes::where('code', '=', $code)->where('is_expired', '=', '1')->count();
         $data = [];
         if($uniqueCodes>0)
         {

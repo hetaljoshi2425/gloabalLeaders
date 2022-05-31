@@ -14,7 +14,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger" for="check1">
+        <label class="btn btn-lg form_blade_color" for="check1">
             Weniger als 3 Monate
         </label>
 
@@ -28,7 +28,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check2">
+        <label class="btn btn-lg form_blade_color mt-3" for="check2">
             3 - 6 Monate
         </label>
 
@@ -42,7 +42,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check3">
+        <label class="btn btn-lg form_blade_color mt-3" for="check3">
             Seit einem  1 Jahr
         </label>
 
@@ -56,7 +56,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check4">
+        <label class="btn btn-lg form_blade_color mt-3" for="check4">
             Mehr als 1 Jahr
         </label>
     </div>
@@ -84,7 +84,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger" for="check5">
+        <label class="btn btn-lg form_blade_color" for="check5">
             Ich habe gerade mit meiner Suche begonnen und möchte jemanden finden, der mir helfen KANN
         </label>
 
@@ -98,7 +98,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check6">
+        <label class="btn btn-lg form_blade_color mt-3" for="check6">
             Ich habe Zeit damit verbracht, mit anderen Leuten zu reden, die mir NICHT helfen KÖNNEN,
             und jetzt möchte ich eine Person finden, die professionell unterstützen kann 
         </label>
@@ -113,7 +113,7 @@
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check7">
+        <label class="btn btn-lg form_blade_color mt-3" for="check7">
             Ich spreche derzeit mit mehreren verschiedenen Personen, um alle verfügbaren Optionen zu bewerten
         </label>
     </div>
@@ -133,7 +133,7 @@ Sie voraus Ihre Strukturen zu optimieren und in ein Netzwerk einzutreten das Mac
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger" for="check6">
+        <label class="btn btn-lg form_blade_color" for="check6">
              	Maximaler Erfolg meines Unternehmens durch Vernetzung
         </label>
 
@@ -147,7 +147,7 @@ Sie voraus Ihre Strukturen zu optimieren und in ein Netzwerk einzutreten das Mac
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check7">Politisch motiviert</label>
+        <label class="btn btn-lg form_blade_color mt-3" for="check7">Politisch motiviert</label>
 
         <input
             type="radio"
@@ -159,7 +159,7 @@ Sie voraus Ihre Strukturen zu optimieren und in ein Netzwerk einzutreten das Mac
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check8">
+        <label class="btn btn-lg form_blade_color mt-3" for="check8">
             Der langristige Ausbau von Unternemergesteuerten Machtstrukturen
         </label>
 
@@ -175,7 +175,7 @@ Sie voraus Ihre Strukturen zu optimieren und in ein Netzwerk einzutreten das Mac
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check9">
+        <label class="btn btn-lg form_blade_color mt-3" for="check9">
             Die Erschaffung einer Elite der Mittelschicht
         </label>
 
@@ -190,7 +190,7 @@ Sie voraus Ihre Strukturen zu optimieren und in ein Netzwerk einzutreten das Mac
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check10">
+        <label class="btn btn-lg form_blade_color mt-3" for="check10">
             Koordinierte Investitionen in die Wirtschaft
         </label>
 
@@ -204,7 +204,7 @@ Sie voraus Ihre Strukturen zu optimieren und in ein Netzwerk einzutreten das Mac
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check11">
+        <label class="btn btn-lg form_blade_color mt-3" for="check11">
             Teil der vierten Industriellen Recvolution zu sein und maximal zu partizipieren
         </label>
 
@@ -218,7 +218,7 @@ Sie voraus Ihre Strukturen zu optimieren und in ein Netzwerk einzutreten das Mac
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check12">
+        <label class="btn btn-lg form_blade_color mt-3" for="check12">
             Eine tragende Position in Global Leaders
         </label>
 
@@ -232,7 +232,7 @@ Sie voraus Ihre Strukturen zu optimieren und in ein Netzwerk einzutreten das Mac
                 checked
             @endif
         >
-        <label class="btn btn-lg btn-outline-danger mt-3" for="check13">
+        <label class="btn btn-lg form_blade_color mt-3" for="check13">
             Eine tragende Position in Global Leaders
         </label>
 
@@ -240,12 +240,12 @@ Sie voraus Ihre Strukturen zu optimieren und in ein Netzwerk einzutreten das Mac
     </div>
 
     <div class="row justify-content-between mt-5">
-        <a href="/contact-form/step8" class="col-sm-2 col-6 btn btn-lg btn-outline-danger">
+        <a href="/contact-form/step8" class="col-sm-2 col-6 btn btn-lg contact_form_btn">
             <i class="fa-solid fa-circle-arrow-left"></i>
             Zurück
         </a>
         <div class="col-sm-4 col-6 text-right">
-            <button type="submit" class="btn btn-lg btn-danger">
+            <button type="submit" class="btn btn-lg blade_submit_btn">
                 Nächste
                 <i class="fa-solid fa-circle-arrow-right"></i>
             </button>

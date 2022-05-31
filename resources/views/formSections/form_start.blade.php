@@ -26,13 +26,13 @@ Das „Kleingedruckte“ (Bitte stimmen Sie zu, fortzufahren): Diese Anwendung v
 </p>
 <div class="row justify-content-between">
     <a href="/" class="col-sm-4 col-12">
-        <button class="btn btn-lg btn-outline-danger w-100">
+        <button class="btn btn-lg contact_form_btn w-100">
             Ich akzeptiere nicht
             <i class="fa-solid fa-circle-xmark"></i>
         </button>
     </a>
     <a href="/contact-form/step1" class="col-sm-4 col-12 text-right">
-        <button class="btn btn-lg btn-danger w-100">
+        <button class="btn btn-lg blade_submit_btn w-100">
             Ich akzeptiere
             <i class="fas fa-circle-check"></i>
         </button>
